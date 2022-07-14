@@ -1,108 +1,139 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [Caitlin's Crafts]
+- ![image]()
+## Visit the live Website : **[Caitlin's Crafts :arrow_right:]()**
+- Family Recipes that are to be shared amoung family and friends.
+- Users will be able to comment on and add useful suggestions of ways that the recipe can be improved.
 
-Welcome pattytonyoneill,
+User Stories:
+- _First time Visitor Goals_
+  As a first time user of this site, I would like to be able to easily create a draft of a recipe.
+  - As a first time user, I would like to be able to comment on recipes.
+  - As a first time user, I would like to Like/Unlike the recipes.
+  - As a first time user, I would like to be able to view likes.
+  - As a first time user, I would like to view comments on the recipes.
+  - As a first time user, I would like to easily register.
+  - As a first time user, I would like to view a paginated list of recipes so that I can select which post I want to view.
+  - As a first time user, I would like to be able to edit and delete my comments.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Existing Features
+- Interactive Elements:
+  - Home page
+    - ![image](static/images/home_page.jpg)
+  - Login/Logout
+    - ![image](static/images/login_page.jpg)
+    - ![image](static/images/log_out.jpg)
+  - Register
+    - ![image](testing/register_page.jpg)
+  - Like
+    - ![image](static/images/like_comment.jpg)
+  - Comment
+    - ![image](static/images/like_comment.jpg)
+  - Ability to edit/delete comments
+    - ![alt-text-for-image](testing/edit_delete.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Languages Used:
 
-## Gitpod Reminders
+- Python
+- Django
+- HTML
+- CSS
+- JavaScript
+- Stripe
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Relational Database used:
 
-`python3 -m http.server`
+- Postgres
 
-A blue button should appear to click: _Make Public_,
+## Frameworks, Libraries & Programs Used:
 
-Another blue button should appear to click: _Open Browser_.
+- [Git](https://git-scm.com): used to utilize the Gitpod terminal to commit to Git and Push to GitHub
+- [GitHub](https://github.com/): used to store project code after being pushed from Git
+- [GitPod](https://gitpod.io/): used as cloud based IDE for writing code
+- [Balsamiq Wireframes](https://balsamiq.com/):  used to draw wireframes of pages of project
+- [Am I Responsive?](http://ami.responsivedesign.is/) used to give a visual of what the project looks like on various devices
+- [Heroku](https://heroku.com): used to deploy the Our Family Recipes app
+- [Cloudinary](https://cloudinary.com/): used to import my Cloudinary field for the featured image
+- [Diffchecker](https://www.diffchecker.com/): used to compare code when I had an error
+- [Stripe](https://stripe.com/): used to add the ability to charge consumer for products purchased
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Wireframes
+To view all wireframes, go to [WIREFRAMES.md](WIREFRAMES.md)
 
-A blue button should appear to click: _Make Public_,
+## Deployment
 
-Another blue button should appear to click: _Open Browser_.
+The live deployed application can be found at []().
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Heroku Deployment
 
-To log into the Heroku toolbelt CLI:
+This project uses [Heroku](https://www.heroku.com), a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Deployment steps are as follows, after account setup:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Select *New* in the top-right corner of your Heroku Dashboard, and select *Create new app* from the dropdown menu.
+- Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select *Create App*.
+- From the new app *Settings*, click *Reveal Config Vars*, and set the following key/value pairs:
+  - `CLOUDINARY_URL` (insert your own Cloudinary API key here)
+  - `DATABASE_URL` (this comes from the **Resources** tab, you can get your own Postgres Database using the Free Hobby Tier)
+  - `SECRET_KEY` (this can be any random secret key)
 
-------
+Heroku needs two additional files in order to deploy properly.
+- requirements.txt
+- Procfile
 
-## Release History
+You can install this project's requirements (where applicable) using: `pip3 install -r requirements.txt`. If you have your own packages that have been installed, then the requirements file needs updated using: `pip3 freeze --local > requirements.txt`
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The Procfile can be created with the following command: `echo web: gunicorn family_recipes.wsgi > Procfile`
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+For Heroku deployment, follow these steps to connect your GitHub repository to the newly created app:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Either:
+- Select "Automatic Deployment" from the Heroku app.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Or:
+- In the Terminal/CLI, connect to Heroku using this command: `heroku login -i`
+- Set the remote for Heroku: `heroku git:remote -a <app_name>` (replace app_name with your app, without the angle-brackets)
+- After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type: `git push heroku main`
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The frontend terminal should now be connected and deployed to Heroku.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Local Deployment
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+*Gitpod* IDE was used to write the code for this project.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+To make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
+- `git clone https://github.com/FamilyRecipes.git`
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+You can install this project's requirements (where applicable) using: `pip3 install -r requirements.txt`.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FamilyRecipes)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Future Additions to page
+- put drop down menu to have user choose minutes and hours for the cooking time and prep time
+- put drop down menu to have user choose measurement type
+- have measurements able to be converted from metric to US standard
+- add ability to put fractions in recipes
+- have the user be able to add recipes of their own
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Credits
+-  [Create a Recipe App](https://engineertodeveloper.com/getting-started-with-django-forms-create-a-recipe-app/)
+-  [Update View -Function based Views Django](https://www.geeksforgeeks.org/update-view-function-based-views-django/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Code
+- _Readme used sample readme from code institute as a model. [Github](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)_
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Content
+- _All content written by the developer._
 
-------
+### Acknowlegements
+- _My Mentor for his help and feedback._
+- _Tutor support at Code Institute_
+- _Family for help with help and feedback on website as a user_
 
-## FAQ about the uptime script
+## Data Schema
+- ![image](testing/data_schema.jpg)
 
-**Why have you added this script?**
+#### Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+To view all testing, go to [TESTING.md](TESTING.md)
