@@ -5,15 +5,7 @@
 - Users will be able to comment on and add useful suggestions of ways that the recipe can be improved.
 
 User Stories:
-- _First time Visitor Goals_
-  As a first time user of this site, I would like to be able to easily create a draft of a recipe.
-  - As a first time user, I would like to be able to comment on recipes.
-  - As a first time user, I would like to Like/Unlike the recipes.
-  - As a first time user, I would like to be able to view likes.
-  - As a first time user, I would like to view comments on the recipes.
-  - As a first time user, I would like to easily register.
-  - As a first time user, I would like to view a paginated list of recipes so that I can select which post I want to view.
-  - As a first time user, I would like to be able to edit and delete my comments.
+-
 
 ## Existing Features
 - Interactive Elements:
@@ -106,11 +98,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FamilyRecipes)
 
 ## Future Additions to page
-- put drop down menu to have user choose minutes and hours for the cooking time and prep time
-- put drop down menu to have user choose measurement type
-- have measurements able to be converted from metric to US standard
-- add ability to put fractions in recipes
-- have the user be able to add recipes of their own
+- 
 
 ## Credits
 -  [Selling Crafts Online](https://wellkeptwallet.com/selling-crafts-online/)
