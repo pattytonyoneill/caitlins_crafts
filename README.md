@@ -1,4 +1,4 @@
-# [Caitlin's Crafts]
+# [Caitlin's Crafts]()
 - ![image]()
 ## Visit the live Website : **[Caitlin's Crafts :arrow_right:]()**
 - Family Recipes that are to be shared amoung family and friends.
@@ -38,7 +38,6 @@ User Stories:
 - HTML
 - CSS
 - JavaScript
-- Stripe
 
 ## Relational Database used:
 
@@ -55,9 +54,6 @@ User Stories:
 - [Cloudinary](https://cloudinary.com/): used to import my Cloudinary field for the featured image
 - [Diffchecker](https://www.diffchecker.com/): used to compare code when I had an error
 - [Stripe](https://stripe.com/): used to add the ability to charge consumer for products purchased
-
-### Wireframes
-To view all wireframes, go to [WIREFRAMES.md](WIREFRAMES.md)
 
 ## Deployment
 
@@ -117,8 +113,11 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - have the user be able to add recipes of their own
 
 ## Credits
--  [Create a Recipe App](https://engineertodeveloper.com/getting-started-with-django-forms-create-a-recipe-app/)
--  [Update View -Function based Views Django](https://www.geeksforgeeks.org/update-view-function-based-views-django/)
+-  [Selling Crafts Online](https://wellkeptwallet.com/selling-crafts-online/)
+-  [Design & Crafts Council Ireland](https://www.dcci.ie/about/media/press-releases/new-global-online-platform-launched-for-the-very-best-of-irelands-design-an)
+-  [Design Ireland](https://www.designireland.ie/)
+-  [Smart Touch](https://www.smarttouch.me/)
+-  [The 6 Best Social Media Platforms for your Business 2022](https://www.lyfemarketing.com/blog/best-social-media-platforms/)
 
 ### Code
 - _Readme used sample readme from code institute as a model. [Github](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)_
@@ -130,10 +129,16 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - _My Mentor for his help and feedback._
 - _Tutor support at Code Institute_
 - _Family for help with help and feedback on website as a user_
+- _Caitlin my daughter for being the inspiration for this particular website_
 
-## Data Schema
-- ![image](testing/data_schema.jpg)
+#### Data Schema
+To view all Data Schema, go to [DATASCHEMA.md](DATASCHEMA.md)
 
 #### Testing
-
 To view all testing, go to [TESTING.md](TESTING.md)
+
+#### SEO and Marketing Research
+To view all SEO and Marketing Research, got to [SEO.md](SEO.md)
+
+#### Wireframes
+To view all wireframes, go to [WIREFRAMES.md](WIREFRAMES.md)
