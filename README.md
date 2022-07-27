@@ -95,7 +95,7 @@ You can install this project's requirements (where applicable) using: `pip3 inst
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FamilyRecipes)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/pattytonyoneill/caitlins_crafts)
 
 ## Future Additions to page
 - 

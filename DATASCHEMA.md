@@ -2,6 +2,6 @@
 - ![image]()
 
 ## Data Schema
-- ![image](testing/data_schema.jpg)
+- ![image](testing/schema.png)
 
 Return back to [README.md](README.md)
