@@ -1,4 +1,4 @@
-# Testing for Our Caitlin's Crafts
+# Testing for Caitlin's Crafts
 
 ## User Stories testing:
 

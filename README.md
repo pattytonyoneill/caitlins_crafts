@@ -1,8 +1,8 @@
 # [Caitlin's Crafts]()
 - ![image]()
 ## Visit the live Website : **[Caitlin's Crafts :arrow_right:]()**
-- Family Recipes that are to be shared amoung family and friends.
-- Users will be able to comment on and add useful suggestions of ways that the recipe can be improved.
+- Caitlin's Crafts is a website for users to find and purchase quality hand made items for themselves or for gifts.
+- Users will be able to register for a newsletter on products available and any specials.
 
 User Stories:
 -
