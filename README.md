@@ -46,6 +46,7 @@ User Stories:
 - [Cloudinary](https://cloudinary.com/): used to import my Cloudinary field for the featured image
 - [Diffchecker](https://www.diffchecker.com/): used to compare code when I had an error
 - [Stripe](https://stripe.com/): used to add the ability to charge consumer for products purchased
+- [Pexels](https://pexels.com/): used to obtain photo for home page
 
 ## Deployment
 
