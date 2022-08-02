@@ -2,7 +2,7 @@
 - ![image]()
 ## Visit the live Website : **[Caitlin's Crafts :arrow_right:]()**
 - Caitlin's Crafts is a website for users to find and purchase quality hand made items for themselves or for gifts.
-- Users will be able to register for a newsletter on products available and any specials that are curently available.
+- Users will be able to register for a newsletter on crafts available and any specials that are curently available.
 
 User Stories:
 -

@@ -14,7 +14,7 @@
     - hand made gifts that are made well.
      _Could you meet the need with useful content?_
      _If yes, how could you best deliver that content?_
-    - Yes, I think a newsletter that showcases newer products that are on the website would be the way to go with this. Also, Facebook, Instagram and Twitter could be used to post photos of merchandise that is available.
+    - Yes, I think a newsletter that showcases newer crafts that are on the website would be the way to go with this. Also, Facebook, Instagram and Twitter could be used to post photos of merchandise that is available.
 - 5. _Would your business run sales or offer discounts?_
      When Caitlin sold her dish cloths in the United States she use to do 3 for $5(proce was $3 for one). So this would definitely be a possible idea. 
      _How do you think your users would most like to hear about offers?_
