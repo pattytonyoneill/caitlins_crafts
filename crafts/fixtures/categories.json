@@ -1,0 +1,44 @@
+[
+    {
+      "pk": 1,
+      "model": "crafts.category",
+      "fields": {
+      "name": "blankets"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "crafts.category",
+      "fields": {
+      "name": "accessories"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "crafts.category",
+      "fields": {
+      "name": "clothes"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "crafts.category",
+      "fields": {
+        "name": "sweaters"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "crafts.category",
+      "fields": {
+        "name": "deals"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "crafts.category",
+      "fields": {
+        "name": "clearance"
+      }
+    }
+  ]
