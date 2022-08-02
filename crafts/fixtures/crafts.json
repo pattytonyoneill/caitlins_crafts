@@ -3,6 +3,7 @@
       "pk": 1,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "s0001"
         "name": "Decorative Handmade Scarf Pink & Grey",
         "description": "Pink, grey and rose scarf that is the perfect accent to any outfit",
         "price": 15.99,
@@ -14,6 +15,7 @@
       "pk": 2,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "S0002",
         "name": "Decorative Handmade Scarf Blue & Light Blue",
         "description": "Blue & Light Blue scarf that is the perfect accent to any outfit",
         "price": 15.99,
@@ -25,6 +27,7 @@
       "pk": 3,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "H0001"
         "name": "Crocheted Sonic Hat",
         "description": "For all the Sonic the Hedghog fans this is a must have. You can wear it to the movies. Caitlins does.",
         "price": 15.99,
@@ -36,6 +39,7 @@
       "pk": 4,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "TS0001",
         "name": "Latch Hook Christmas Tree Skirt",
         "description": "Festive tree skirt to beautifully decorate the bottom of the tree.",
         "price": 99.99,
@@ -47,6 +51,7 @@
       "pk": 5,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "T0001",
         "name": "Decorative Bathroom Towels Fish themed",
         "description": "Decorative towels with a fish theme that is the perfect accent to any bathroom.",
         "price": 15.99,
@@ -58,6 +63,7 @@
       "pk": 6,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "BW0001",
         "name": "Embroidered Baby wrap",
         "description": "Keep baby warm and cosy when on the go or at home",
         "price": 35.99,
@@ -69,6 +75,7 @@
       "pk": 7,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "B0001",
         "name": "Embroidered Baby Blanket",
         "description": "Beautiful light blanket for naps or hang it on the wall for decoration.",
         "price": 15.99,
@@ -80,6 +87,7 @@
       "pk": 8,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DQ0001",
         "name": "Beautiful Patchwork quilt for Double Bed",
         "description": "Beautiful and decorative Patchwork quilt for you double bed.",
         "price": 200.00,
@@ -91,6 +99,7 @@
       "pk": 9,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "B0002",
         "name": "Dishcloth Style Baby Blanket(Pink/Purple)",
         "description": "Lovely and warm baby blanket that is as pretty as it is functional.",
         "price": 50.00,
@@ -102,6 +111,7 @@
       "pk": 10,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "B0003",
         "name": "White Baby Blanket",
         "description": "Perfect for Christening day. It is a white baby blanket that is definitely great to pass down.",
         "price": 50.00,
@@ -113,6 +123,7 @@
       "pk": 11,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "B0004",
         "name": "Soft Blue Baby Blanket",
         "description": "This is a blue baby blanket that is soft and comfortable.",
         "price": 50.00,
@@ -124,6 +135,7 @@
       "pk": 12,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "B0005",
         "name": "Knitted baby blanket",
         "description": "This is a the perfect baby blanket when unsure of the gender of the baby to come.",
         "price": 50.00,
@@ -135,6 +147,7 @@
       "pk": 13,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "B0006",
         "name": "Knitted brightly colored baby blanket",
         "description": "This is a the perfect baby blanket when you want one with bright colors.",
         "price": 50.00,
@@ -146,6 +159,7 @@
       "pk": 14,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0001",
         "name": "Knitted Dishcloths",
         "description": "Christmas Colored Dishcloth. Better than the ones in the shop.",
         "price": 3.50,
@@ -157,6 +171,7 @@
       "pk": 15,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0002",
         "name": "Knitted Dishcloths",
         "description": "Better than the ones in the shop.",
         "price": 3.50,
@@ -168,6 +183,7 @@
       "pk": 16,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0003",
         "name": "Knitted Christmas Theme Color Dishcloths",
         "description": "Christmas Colored Dishcloth. Better than the ones in the shop.",
         "price": 3.50,
@@ -179,6 +195,7 @@
       "pk": 17,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0004",
         "name": "Multi Colored Color Dishcloths",
         "description": "Better than the ones in the shop.",
         "price": 3.50,
@@ -190,6 +207,7 @@
       "pk": 18,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "KDC0001",
         "name": "Child Size Pink & Grey Dishcloths",
         "description": "Child size Pink & Grey Dishcloth. For the little helper in the house.",
         "price": 3.50,
@@ -201,6 +219,7 @@
       "pk": 19,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0005",
         "name": "Blue/White Dishcloths",
         "description": "Better than the ones in the shop.",
         "price": 3.50,
@@ -212,6 +231,7 @@
       "pk": 20,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0006",
         "name": "Dishcloth multi colored",
         "description": "Better than the ones in the shop.",
         "price": 3.50,
@@ -223,6 +243,7 @@
       "pk": 21,
       "model": "crafts.crafts",
       "fields": {
+        "sku": "DC0007",
         "name": "Dishcloth Multicolored for mom and child",
         "description": "Better than the ones in the shop.",
         "price": 5.00,
@@ -234,44 +255,48 @@
         "pk": 21,
         "model": "crafts.crafts",
         "fields": {
-        "name": "Dishcloth Multicolored child",
-        "description": "Better than the ones in the shop & great for your little helper",
-        "price": 3.50,
-        "category": 6,
-        "image": "20220802_105244.jpg"
+          "sku": "DC0008",
+          "name": "Dishcloth Multicolored child",
+          "description": "Better than the ones in the shop & great for your little helper",
+          "price": 3.50,
+          "category": 6,
+          "image": "20220802_105244.jpg"
       }
     },
     {
         "pk": 21,
         "model": "crafts.crafts",
         "fields": {
-        "name": "Medieval Themed Dress",
-        "description": "Beautifully made medieval dress. Great for Halloween!",
-        "price": 75.00,
-        "category": 4,
-        "image": "20220802_105529.jpg"
+          "sku": "DM0001",
+          "name": "Medieval Themed Dress",
+          "description": "Beautifully made medieval dress. Great for Halloween!",
+          "price": 75.00,
+          "category": 4,
+          "image": "20220802_105529.jpg"
       }
     },
     {
         "pk": 21,
         "model": "crafts.crafts",
         "fields": {
-        "name": "Oriental Themed Dress",
-        "description": "Beautifully made oriental dress.",
-        "price": 75.00,
-        "category": 4,
-        "image": "20220802_105724.jpg"
+          "sku": "OD0001",
+          "name": "Oriental Themed Dress",
+          "description": "Beautifully made oriental dress.",
+          "price": 75.00,
+          "category": 4,
+          "image": "20220802_105724.jpg"
       }
     },
     {
         "pk": 21,
         "model": "crafts.crafts",
         "fields": {
-        "name": "Renaissance Themed Dress",
-        "description": "Beautifully made renaissance dress. Great for Halloween!",
-        "price": 75.00,
-        "category": 4,
-        "image": "20220802_105851.jpg"
+          "sku": "RD0001",
+          "name": "Renaissance Themed Dress",
+          "description": "Beautifully made renaissance dress. Great for Halloween!",
+          "price": 75.00,
+          "category": 4,
+          "image": "20220802_105851.jpg"
       }
     }
 ]
