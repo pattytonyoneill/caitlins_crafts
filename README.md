@@ -99,7 +99,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/pattytonyoneill/caitlins_crafts)
 
 ## Future Additions to page
-- 
+- Ratings for crafts that are on this site
 
 ## Credits
 -  [Selling Crafts Online](https://wellkeptwallet.com/selling-crafts-online/)
