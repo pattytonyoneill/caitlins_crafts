@@ -39,7 +39,7 @@
 - 
 
 ## Bugs
-- 
-     -![image](testing/.jpg)
+- Needed to add I solve it by removing s from function in crafts/views.py. My function was not called craft_detail instead it was crafts_detail.
+     -![image](testing/attribute_error.jpg)
 
 Return back to [README.md](README.md)
