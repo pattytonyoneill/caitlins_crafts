@@ -3,7 +3,7 @@
       "pk": 1,
       "model": "crafts.crafts",
       "fields": {
-        "sku": "s0001"
+        "sku": "s0001",
         "name": "Decorative Handmade Scarf Pink & Grey",
         "description": "Pink, grey and rose scarf that is the perfect accent to any outfit",
         "price": 15.99,
@@ -27,7 +27,7 @@
       "pk": 3,
       "model": "crafts.crafts",
       "fields": {
-        "sku": "H0001"
+        "sku": "H0001",
         "name": "Crocheted Sonic Hat",
         "description": "For all the Sonic the Hedghog fans this is a must have. You can wear it to the movies. Caitlins does.",
         "price": 15.99,
@@ -252,7 +252,7 @@
       }
     },
     {
-        "pk": 21,
+        "pk": 22,
         "model": "crafts.crafts",
         "fields": {
           "sku": "DC0008",
@@ -264,7 +264,7 @@
       }
     },
     {
-        "pk": 21,
+        "pk": 23,
         "model": "crafts.crafts",
         "fields": {
           "sku": "DM0001",
@@ -276,7 +276,7 @@
       }
     },
     {
-        "pk": 21,
+        "pk": 24,
         "model": "crafts.crafts",
         "fields": {
           "sku": "OD0001",
@@ -288,7 +288,7 @@
       }
     },
     {
-        "pk": 21,
+        "pk": 25,
         "model": "crafts.crafts",
         "fields": {
           "sku": "RD0001",

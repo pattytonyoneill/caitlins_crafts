@@ -4,11 +4,14 @@ from .models import Crafts, Category
 
 class CraftsAdmin(admin.ModelAdmin):
     list_display = (
+        'sku',
         'name',
         'category',
         'price',
         'image',
     )
+
+    ordering = ('sku',)
 
 
 class CategoryAdmin(admin.ModelAdmin):
