@@ -17,9 +17,9 @@
                 Baby
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="baby-link">
-                <a href="" class="dropdown-item">Blankets</a>
-                <a href="" class="dropdown-item">Accesories</a>
-                <a href="" class="dropdown-item">All Baby</a>
+                <a href="{% url 'crafts' %}?category=blankets" class="dropdown-item">Blankets</a>
+                <a href="{% url 'crafts' %}?category=accesories" class="dropdown-item">Accesories</a>
+                <a href="{% url 'crafts' %}?category=blankets,accesories" class="dropdown-item">All Baby</a>
             </div>
         </li>
 
@@ -28,9 +28,9 @@
                 Kids/Adults
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kids_adults-link">
-                <a href="" class="dropdown-item">Clothes</a>
-                <a href="" class="dropdown-item">Sweaters, hats and scarfs</a>
-                <a href="" class="dropdown-item">All Kids & Adults</a>
+                <a href="{% url 'crafts' %}?category=clothes" class="dropdown-item">Clothes</a>
+                <a href="{% url 'crafts' %}?category=sweaters, hats, scarfs" class="dropdown-item">Sweaters, hats and scarfs</a>
+                <a href="{% url 'crafts' %}?category=clothes,kids,adult, sweaters, hats, scarfs" class="dropdown-item">All Kids & Adults</a>
             </div>
         </li>
 
@@ -39,10 +39,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'crafts' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'crafts' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'crafts' %}?category=deals, clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>

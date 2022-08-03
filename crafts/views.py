@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Crafts
+from .models import Crafts, Category
 
 
 def all_crafts(request):
@@ -9,20 +9,27 @@ def all_crafts(request):
 
     crafts = Crafts.objects.all()
     query = None
+    categories = None
 
     if request.GET:
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            crafts = crafts.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('crafts'))
-          
+     
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             crafts = crafts.filter(queries)
 
     context = {
         'crafts': crafts,
         'search_term': query,
+        'current_categories': categories,
     }
 
     return render(request, 'crafts/crafts.html', context)

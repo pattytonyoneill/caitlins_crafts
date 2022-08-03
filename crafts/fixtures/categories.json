@@ -10,7 +10,7 @@
       "pk": 3,
       "model": "crafts.category",
       "fields": {
-      "name": "accessories"
+      "name": "accesories"
       }
     },
     {
