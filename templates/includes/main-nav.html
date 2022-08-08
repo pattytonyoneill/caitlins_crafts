@@ -28,8 +28,9 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kids_adults-link">
                 <a href="{% url 'crafts' %}?category=clothes" class="dropdown-item">Clothes</a>
-                <a href="{% url 'crafts' %}?category=sweaters, hats, scarfs" class="dropdown-item">Sweaters, hats and scarfs</a>
-                <a href="{% url 'crafts' %}?category=clothes,kids,adult, sweaters, hats, scarfs" class="dropdown-item">All Kids & Adults</a>
+                <a href="{% url 'crafts' %}?category=hats" class="dropdown-item">Hats</a>
+                <a href="{% url 'crafts' %}?category=scarfs" class="dropdown-item">Scarfs</a>
+                <a href="{% url 'crafts' %}?category=clothes,kids,adults,hats,scarfs" class="dropdown-item">All Kids & Adults</a>
             </div>
         </li>
 
@@ -40,7 +41,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'crafts' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'crafts' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'crafts' %}?category=deals, clearance" class="dropdown-item">All Specials</a>
+                <a href="{% url 'crafts' %}?category=deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
