@@ -41,5 +41,8 @@
 ## Bugs
 - Needed to add I solve it by removing s from function in crafts/views.py. My function was not called craft_detail instead it was crafts_detail.
      -![image](testing/attribute_error.jpg)
+- Made crafts be craft where needed in code on crafts.html and craft_detail.html. 
+     -![image](testing/no_reversematch_error.jpg)
+     -![image](testing/lost_pictures.jpg)
 
 Return back to [README.md](README.md)
