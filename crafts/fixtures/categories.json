@@ -3,42 +3,48 @@
       "pk": 1,
       "model": "crafts.category",
       "fields": {
-      "name": "blankets"
+      "name": "blankets",
+      "friendly_name": "Blankets"
       }
     },
     {
       "pk": 3,
       "model": "crafts.category",
       "fields": {
-      "name": "accesories"
+      "name": "accesories",
+      "friendly_name": "Accesories"
       }
     },
     {
       "pk": 4,
       "model": "crafts.category",
       "fields": {
-      "name": "clothes"
+      "name": "clothes",
+      "friendly_name": "Clothes"
       }
     },
     {
       "pk": 5,
       "model": "crafts.category",
       "fields": {
-        "name": "sweaters"
+        "name": "sweaters",
+        "friendly_name": "Sweaters"
       }
     },
     {
       "pk": 6,
       "model": "crafts.category",
       "fields": {
-        "name": "deals"
+      "name": "deals",
+      "friendly_name": "Deals"
       }
     },
     {
       "pk": 7,
       "model": "crafts.category",
       "fields": {
-        "name": "clearance"
+      "name": "clearance",
+      "friendly_name": "Clearance"
       }
     }
   ]
