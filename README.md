@@ -10,16 +10,16 @@ User Stories:
 ## Existing Features
 - Interactive Elements:
   - Home page
-    - ![image](static/images/home_page.jpg)
+    - ![image](testing/home_page.jpg)
   - Login/Logout
-    - ![image](static/images/login_page.jpg)
-    - ![image](static/images/log_out.jpg)
+    - ![image](testing/login_page.jpg)
+    - ![image](testing/log_out.jpg)
   - Register
     - ![image](testing/register_page.jpg)
   - Choice of Crafts by Price, Category or All Crafts
-    - ![image](static/images/all_crafts.jpg)
+    - ![image](testing/all_crafts.jpg)
   - Choice of Crafts from baby of blankets or accessories or All Baby
-    - ![image](static/images/baby.jpg)
+    - ![image](testing/baby.jpg)
   - Choice of Crafts from Kids/Adults of clothes, hats, scarfs or All Kids/Adults
     - ![image](testing/kids.jpg)
   - Choice of Crafts from Special Offers of Deals, Clearance or All Special Offers
