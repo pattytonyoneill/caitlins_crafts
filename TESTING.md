@@ -87,5 +87,7 @@
 - Made crafts be craft where needed in code on crafts.html and craft_detail.html. 
      -![image](testing/no_reversematch_error.jpg)
      -![image](testing/lost_pictures.jpg)
+- 
+     -![image](testing/payment_error.jpg)
 
 Return back to [README.md](README.md)
