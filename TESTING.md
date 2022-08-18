@@ -19,18 +19,18 @@
 - ![image](testing/userstory8.jpg)
 - 9. As a site user I can confirm that my account registered successfully and receive an email after registration.
 - ![image](testing/userstory9.jpg)
-- 10. As a shopper I can easily find the best rated & priced and sort products by category in a list of available crafts.
+- 10. As a shopper I can easily find the best priced and sort products by category in a list of available crafts.
 - ![image](testing/userstory10.jpg)
-- 11. As a shopper I can find the best priced and best rated product in a specific category by name.
+- 11. As a shopper I can find the best priced product in a specific category by name.
 - ![image](testing/userstory11.jpg)
 - 12. As a shopper I can make sure that I don't accidently select the wrong product
 - ![image](testing/userstory12.jpg)
 - 13. As a shopper I can sort categories of products simultaneously.
-- ![image](testing/userstory13.jpg)
+- ![image](testing/userstory16.jpg)
 - 14. As a shopper I can find a product that can be purchased
 - ![image](testing/userstory14.jpg)
 - 15. As a shopper I can quickly decide if the knitted item I want is available
-- ![image](testing/userstory15.jpg)
+- ![image](testing/userstory16.jpg)
 - 16. As a shopper I can quickly find product that I am interested in without having to search through all of the products
 - ![image](testing/userstory16.jpg)
 - 17. As a shopper I can quickly find craft that I am interested in without having to search through all of the crafts so that I can easily identify the total cost of my purchase.
