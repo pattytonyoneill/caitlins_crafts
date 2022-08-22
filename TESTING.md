@@ -89,5 +89,9 @@
      -![image](testing/lost_pictures.jpg)
 - Corrected stripe_element.js and changed it to stripe_elements.js
      -![image](testing/payment_error.jpg)
+- Procfile I had put an empty row at the end and shouldn't have done so.
+     -![image](testing/error_procfile.jpg)
+- Typo for allowed hosts. Found this after Procfile error.
+     -![image](testing/typos_settings.jpg)
 
 Return back to [README.md](README.md)
