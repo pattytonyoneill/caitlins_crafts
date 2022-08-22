@@ -1,1 +1,1 @@
-web: gunicorn caitlins_crafts.wsgi.application
+web: gunicorn caitlins_crafts.wsgi:application
