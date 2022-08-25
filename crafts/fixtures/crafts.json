@@ -31,8 +31,8 @@
         "name": "Crocheted Sonic Hat",
         "description": "For all the Sonic the Hedghog fans this is a must have. You can wear it to the movies. Caitlins does.",
         "price": 15.99,
-        "category": 5,
-        "image": "20220802_103.759.jpg"
+        "category": 4,
+        "image": "20220802_103759.jpg"
       }
     },
      {
@@ -67,7 +67,7 @@
         "name": "Embroidered Baby wrap",
         "description": "Keep baby warm and cosy when on the go or at home",
         "price": 35.99,
-        "category": 3,
+        "category": 2,
         "image": "20220802_104118.jpg"
       }
     },
@@ -164,7 +164,7 @@
         "description": "Christmas Colored Dishcloth. Better than the ones in the shop.",
         "price": 3.50,
         "category": 7,
-        "image": "20220802_104913.jpg.jpg"
+        "image": "20220802_104913.jpg"
       }
     },
         {
@@ -271,7 +271,7 @@
           "name": "Medieval Themed Dress",
           "description": "Beautifully made medieval dress. Great for Halloween!",
           "price": 75.00,
-          "category": 4,
+          "category": 3,
           "image": "20220802_105529.jpg"
       }
     },
@@ -283,7 +283,7 @@
           "name": "Oriental Themed Dress",
           "description": "Beautifully made oriental dress.",
           "price": 75.00,
-          "category": 4,
+          "category": 3,
           "image": "20220802_105724.jpg"
       }
     },
@@ -295,7 +295,7 @@
           "name": "Renaissance Themed Dress",
           "description": "Beautifully made renaissance dress. Great for Halloween!",
           "price": 75.00,
-          "category": 4,
+          "category": 3,
           "image": "20220802_105851.jpg"
       }
     }

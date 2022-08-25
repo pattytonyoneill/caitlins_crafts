@@ -8,7 +8,7 @@
       }
     },
     {
-      "pk": 3,
+      "pk": 2,
       "model": "crafts.category",
       "fields": {
       "name": "accesories",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pk": 4,
+      "pk": 3,
       "model": "crafts.category",
       "fields": {
       "name": "clothes",
@@ -24,11 +24,19 @@
       }
     },
     {
+      "pk": 4,
+      "model": "crafts.category",
+      "fields": {
+        "name": "hats",
+        "friendly_name": "Hats"
+      }
+    },
+    {
       "pk": 5,
       "model": "crafts.category",
       "fields": {
-        "name": "sweaters",
-        "friendly_name": "Sweaters"
+        "name": "scarfs",
+        "friendly_name": "Scarfs"
       }
     },
     {
