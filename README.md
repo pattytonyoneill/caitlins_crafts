@@ -9,10 +9,10 @@
   - Home page
     - ![image](testing/home_page.jpg)
   - Login/Logout
-    - ![image](testing/login_page.jpg)
+    - ![image](testing/log_in_page.jpg)
     - ![image](testing/log_out.jpg)
   - Register
-    - ![image](testing/register_page.jpg)
+    - ![image](testing/register.jpg)
   - Choice of Crafts by Price, Category or All Crafts
     - ![image](testing/all_crafts.jpg)
   - Choice of Crafts from baby of blankets or accessories or All Baby
