@@ -1,11 +1,8 @@
 # [Caitlin's Crafts]()
 - ![image]()
-## Visit the live Website : **[Caitlin's Crafts :arrow_right:]()**
+## Visit the live Website : **[Caitlin's Crafts :arrow_right:](https://caitlins-crafts.herokuapp.com/)**
 - Caitlin's Crafts is a website for users to find and purchase quality hand made items for themselves or for gifts.
 - Users will be able to register for a newsletter on crafts available and any specials that are curently available.
-
-User Stories:
--
 
 ## Existing Features
 - Interactive Elements:
@@ -49,6 +46,8 @@ User Stories:
 - [Diffchecker](https://www.diffchecker.com/): used to compare code when I had an error
 - [Stripe](https://stripe.com/): used to add the ability to charge consumer for crafts purchased
 - [Pexels](https://pexels.com/): used to obtain photo for home page
+- [AWS](https://aws.amazon.com/): used for database of media used to be stored for heroku
+
 
 ## Deployment
 
