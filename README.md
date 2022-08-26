@@ -1,4 +1,4 @@
-# [Caitlin's Crafts]()
+# Caitlin's Crafts
 - ![image]()
 ## Visit the live Website : **[Caitlin's Crafts :arrow_right:](https://caitlins-crafts.herokuapp.com/)**
 - Caitlin's Crafts is a website for users to find and purchase quality hand made items for themselves or for gifts.
