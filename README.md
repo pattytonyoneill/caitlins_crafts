@@ -9,7 +9,7 @@
   - Home page
     - ![image](testing/home_page.jpg)
   - Login/Logout
-    - ![image](testing/log_in_page.jpg)
+    - ![image](testing/log_in.jpg)
     - ![image](testing/log_out.jpg)
   - Register
     - ![image](testing/register.jpg)
