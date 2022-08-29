@@ -93,5 +93,9 @@
      -![image](testing/error_procfile.jpg)
 - Typo for allowed hosts. Found this after Procfile error.
      -![image](testing/typos_settings.jpg)
+- Attribute Error at checkout. Added line of code that was missing.
+     -![image](testing/attribute_error_checkout.jpg)
+Return back to [README.md](README.md)
+- Heroku had issue with pictures not coming up when entered on AWS. Come to find out when copying from zip file it was adding [1] after each photo number which I fixed by renaming before added to AWS again.
 
 Return back to [README.md](README.md)
