@@ -95,7 +95,13 @@
      -![image](testing/typos_settings.jpg)
 - Attribute Error at checkout. Added line of code that was missing.
      -![image](testing/attribute_error_checkout.jpg)
-Return back to [README.md](README.md)
 - Heroku had issue with pictures not coming up when entered on AWS. Come to find out when copying from zip file it was adding [1] after each photo number which I fixed by renaming before added to AWS again.
+- webhooks had a 403 error under heroku because I forgot to add checkout/wh/
+     -![image](testing/403errror.jpg)
+- webhooks had a 404 error under gitpod because I needed to make it public
+     -![image](testing/404errror.jpg)
+- ModuleNotFoundError: No module named'crafts.widgets'. I just had to stop and then restart my server.
+     -![image](testing/crafts_widgets.jpg)
+
 
 Return back to [README.md](README.md)
