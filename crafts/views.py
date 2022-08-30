@@ -79,9 +79,9 @@ def add_craft(request):
         form = CraftForm(request.POST, request.FILES)
         
         if form.is_valid():
-            form.save()
+            craft = form.save()
             messages.success(request, 'Successfully added craft!')
-            return redirect(reverse('add_craft'))
+            return redirect(reverse('craft_detail', args=[craft.id]))
 
         else:
             messages.error(request, 'Failed to add craft. Please ensure the form is valid.')
@@ -124,3 +124,12 @@ def edit_craft(request, craft_id):
     return render(request, template, context)
 
 
+def delete_craft(request, craft_id):
+    """ Delete a craft from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+    craft = get_object_or_404(Crafts, pk=craft_id)
+    craft.delete()
+    messages.success(request, 'Craft deleted!')
+    return redirect(reverse('crafts'))
