@@ -95,3 +95,32 @@ def add_craft(request):
     }
 
     return render(request, template, context)
+
+
+def edit_craft(request, craft_id):
+    """ Edit a craft in the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+    craft = get_object_or_404(Crafts, pk=craft_id)
+    if request.method == 'POST':
+        form = CraftForm(request.POST, request.FILES, instance=craft)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated craft!')
+            return redirect(reverse('craft_detail', args=[craft.id]))
+        else:
+            messages.error(request, 'Failed to update craft. Please ensure the form is valid.')
+    else:
+        form = CraftForm(instance=craft)
+        messages.info(request, f'You are editing {craft.name}')
+
+    template = 'crafts/edit_craft.html'
+    context = {
+        'form': form,
+        'craft': craft,
+    }
+
+    return render(request, template, context)
+
+
