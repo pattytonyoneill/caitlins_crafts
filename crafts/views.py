@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Crafts, Category
+from .forms import CraftForm
 
 
 def all_crafts(request):
@@ -65,3 +66,14 @@ def craft_detail(request, craft_id):
     }
 
     return render(request, 'crafts/craft_detail.html', context)
+
+
+def add_craft(request):
+    """ Add a craft to the store """
+    form = CraftForm()
+    template = 'crafts/add_craft.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
