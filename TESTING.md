@@ -102,6 +102,12 @@
      -![image](testing/404errror.jpg)
 - ModuleNotFoundError: No module named'crafts.widgets'. I just had to stop and then restart my server.
      -![image](testing/crafts_widgets.jpg)
+- Heroku 500error
+     -![image](testing/heroku1.jpg)
+     -![image](testing/heroku2.jpg)
+     -![image](testing/heroku3.jpg)
+     -![image](testing/heroku4.jpg)
+     -![image]()
 
 
 Return back to [README.md](README.md)
