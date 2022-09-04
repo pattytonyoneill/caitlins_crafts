@@ -10,17 +10,17 @@
 - 4. As a shopper I can avoid spending to much money by seeing the total of the purchases made.
 - ![image](testing/userstory4.jpg)
 - 5. As a site user I can have a personal account and be able to view my profile whenever I wish to.
-- ![image](testing/userstory5.jpg)
+- ![image](testing/profile.jpg)
 - 6. As a site user I can access my account and the information that it contains
-- ![image](testing/userstory6.jpg)
+- ![image](testing/profile.jpg)
 - 7. As a site user I can view my order history and order confirmations, and save the payment history
-- ![image](testing/userstory7.jpg)
+- ![image](testing/profile.jpg)
 - 8. As a site user I can easily recover my password in case it is forgotten
-- ![image](testing/userstory8.jpg)
+- ![image](testing/password_reset.jpg)
 - 9. As a site user I can confirm that my account registered successfully and receive an email after registration.
 - ![image](testing/userstory9.jpg)
 - 10. As a shopper I can easily find the best priced and sort products by category in a list of available crafts.
-- ![image](testing/userstory10.jpg)
+- ![image](testing/crafts_by_price.jpg)
 - 11. As a shopper I can find the best priced product in a specific category by name.
 - ![image](testing/userstory11.jpg)
 - 12. As a shopper I can make sure that I don't accidently select the wrong product
@@ -49,7 +49,7 @@
 
 ## Browser Compatability
 - Firefox
-    - ![image](testing/firefox.jpg)
+    - ![image](testing/profile.jpg)
 
 - Microsoft Edge
     - ![image](testing/microsoft_edge.jpg)
@@ -59,7 +59,7 @@
 
 ## Responsiveness
 - Desktop
-     - ![image](testing/firefox.jpg)
+     - ![image](testing/profile.jpg)
 
 - Tablet
      - ![image](testing/tablet.jpg)
