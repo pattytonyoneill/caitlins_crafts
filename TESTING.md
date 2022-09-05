@@ -44,7 +44,7 @@
 - 21. As a shopper I can view an order confirmation after checkout so that I can make sure that there are no errors in my order.
 - ![image](testing/success_message_purchase.jpg)
 - 22. As a shopper I can receive an email upon checkout confirming the purchase so that I can keep the confirmation of what has been purchased for my records.
-- ![image](testing/order_confirmation.jpg)
+- ![image](testing/confirmation_order.jpg)
 - ![image](testing/confirmation_order2.jpg)
 
 ## Browser Compatability
@@ -108,7 +108,6 @@
      -![image](testing/heroku2.jpg)
      -![image](testing/heroku3.jpg)
      -![image](testing/heroku4.jpg)
-     -![image]()
  
 
 Return back to [README.md](README.md)
