@@ -65,7 +65,7 @@
      - ![image](testing/tablet.jpg)
 
 - Cell Phone
-     - ![image](testing/cell_phone.jpg)
+     - ![image](testing/google_chrome.jpg)
 
 ## Validator Testing
 
