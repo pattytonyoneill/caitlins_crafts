@@ -36,13 +36,13 @@
 - 17. As a shopper I can quickly find craft that I am interested in without having to search through all of the crafts so that I can easily identify the total cost of my purchase.
 - ![image](testing/userstory17.jpg)
 - 18. As a shopper I want to adjust the quantity of individual items that are in my bag so that *I can easily make changes to my purchase before I check out.
-- ![image](testing/userstory18.jpg)
+- ![image](testing/userstory12.jpg)
 - 19. As a shopper I can quickly and easily enter my payment information so that I can quickly and easily check out with little or no hassle
 - ![image](testing/userstory19.jpg)
 - 20. As a shopper I can feel that my personal/payment information is safe and secure so that I can confidently provide the needed information for the purchase.
-- ![image](testing/userstory20.jpg)
+- ![image](testing/userstory19.jpg)
 - 21. As a shopper I can view an order confirmation after checkout so that I can make sure that there are no errors in my order.
-- ![image](testing/userstory21.jpg)
+- ![image](testing/success_message_purchase.jpg)
 - 22. As a shopper I can receive an email upon checkout confirming the purchase so that I can keep the confirmation of what has been purchased for my records.
 - ![image](testing/order_confirmation.jpg)
 - ![image](testing/confirmation_order2.jpg)
