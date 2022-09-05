@@ -77,7 +77,12 @@
 - ![image](testing/html_testing.jpg)
 
 ### CSS Validation
-- ![image](testing/css_testing.jpg)
+- base.css
+     - ![image](testing/base_css_validator.jpg)
+- checkout.css
+     - ![image](testing/checkout_css_validator.jpg)
+- profiles.css
+     - ![image](testing/checkout_css_validator.jpg)
 
 ## Remaining Bugs
 - 
