@@ -89,7 +89,9 @@
      - ![image](testing/checkout_css_validator.jpg)
 
 ## Remaining Bugs
-- 
+- Gitpod is working properly when sending the email and listing totals but for some reason on the deployed site it is sending those as 0.
+     -![image](testing/deployed_site_error.jpg)
+     -![image](testing/gitpod_site_no_error.jpg)this picture is after doing on heroku site and shows the error
 
 ## Bugs
 - Needed to add I solve it by removing s from function in crafts/views.py. My function was not called craft_detail instead it was crafts_detail.
@@ -117,6 +119,9 @@
      -![image](testing/heroku2.jpg)
      -![image](testing/heroku3.jpg)
      -![image](testing/heroku4.jpg)
+- Gitpod is working properly when sending the email and listing totals but for some reason on the deployed site it is sending those as 0.
+     -![image](testing/deployed_site_error.jpg)
+     -![image](testing/gitpod_site_no_error.jpg)this picture is after doing on heroku site and shows the error
  
 
 Return back to [README.md](README.md)
