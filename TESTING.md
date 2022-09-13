@@ -47,7 +47,9 @@
 - ![image](testing/confirmation_order.jpg)
 - ![image](testing/confirmation_order2.jpg)
 - 23. As a shopper I can sign up with an email so that I can receive a newsletter.
+- ![image](testing/newsletter.jpg)
 - 24. As a shopper I can give my contact information so that I can be reached by Caitlin's Crafts.
+- ![image](testing/contact.jpg)
 
 ## Browser Compatability
 - Firefox
