@@ -46,6 +46,8 @@
 - 22. As a shopper I can receive an email upon checkout confirming the purchase so that I can keep the confirmation of what has been purchased for my records.
 - ![image](testing/confirmation_order.jpg)
 - ![image](testing/confirmation_order2.jpg)
+- 23. As a shopper I can sign up with an email so that I can receive a newsletter.
+- 24. As a shopper I can give my contact information so that I can be reached by Caitlin's Crafts.
 
 ## Browser Compatability
 - Firefox
