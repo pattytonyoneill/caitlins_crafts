@@ -1,1 +1,1 @@
-Cailtin's Crafts Confirmation for Order Number {{ order.order_number }}
+Caitlin's Crafts Confirmation for Order Number {{ order.order_number }}
