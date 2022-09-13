@@ -137,6 +137,11 @@
 {% block content %}
 {% endblock %}
 
+<footer>
+    <a href="{% url 'newsletter' %}">Sign Up to Newsletter</a>
+    <a href="{% url 'contact' %}">Contact Caitlin</a>
+</footer>
+
 {% block postloadjs %}
 <script type="text/javascript">
     $('.toast').toast('show');
