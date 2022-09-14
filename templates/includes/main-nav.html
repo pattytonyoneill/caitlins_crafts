@@ -21,6 +21,7 @@
                 Baby
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="baby-link">
+                <span class="d-none" id="baby-link" >Links to all baby related products</span>   
                 <a href="{% url 'crafts' %}?category=blankets" class="dropdown-item">Blankets</a>
                 <a href="{% url 'crafts' %}?category=accesories" class="dropdown-item">Accesories</a>
                 <a href="{% url 'crafts' %}?category=blankets,accesories" class="dropdown-item">All Baby</a>
@@ -32,6 +33,7 @@
                 Kids/Adults
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kids_adults-link">
+                <span class="d-none" id="kids_adults-link" >Links to all Kids & Adult related products</span>
                 <a href="{% url 'crafts' %}?category=clothes" class="dropdown-item">Clothes</a>
                 <a href="{% url 'crafts' %}?category=hats" class="dropdown-item">Hats</a>
                 <a href="{% url 'crafts' %}?category=scarfs" class="dropdown-item">Scarfs</a>
