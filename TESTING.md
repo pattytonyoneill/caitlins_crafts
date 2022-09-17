@@ -73,7 +73,7 @@
 
 ## Validator Testing
 
-### Pep8
+### Pep8 Testing
 
 ## bag Pep 8
 -  Pep8 for bag/apps.py
@@ -95,7 +95,7 @@
 -  Pep8 for caitlins_crafts/wsgi.py
      - ![image](testing/caitlins_crafts_wsgi.py.jpg)
 
-##
+## checkout Pep 8
 -  Pep8 for models.py
      - ![image](testing/models.py.jpg)
 -  Pep8 for models.py
@@ -104,6 +104,70 @@
      - ![image](testing/models.py.jpg)
 -  Pep8 for models.py
      - ![image](testing/models.py.jpg)
+
+## contact Pep 8
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+
+## crafts Pep 8
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+
+## home Pep 8
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+
+## media Pep 8
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+
+## newsletter Pep 8
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+
+## profiles Pep 8
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+-  Pep8 for models.py
+     - ![image](testing/models.py.jpg)
+
+## custom_storage.py Pep 8
+-  Pep8 for custom_storage.py
+     - ![image](testing/custom_storage.py.jpg)
 
 ### HTML Validation
 - ![image](testing/html_testing.jpg)
