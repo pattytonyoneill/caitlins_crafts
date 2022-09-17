@@ -1,6 +1,7 @@
+# Caitlin's Crafts
+- ![image](testing/caitlins_crafts_responsiveness.jpg)0
 
-
-## Remaining Bugs
+## R0emaining Bugs
 - Gitpod is working properly when sending the email and listing totals but for some reason on the deployed site it is sending those as 0.
      -![image](testing/deployed_site_error.jpg)
      -![image](testing/gitpod_site_no_error.jpg)this picture is after doing on heroku site and shows the error
@@ -37,5 +38,10 @@
 
 
 Return back to [TESTING.md](TESTING.md)
+
+
+
+
+
 
 Return back to [README.md](README.md)
