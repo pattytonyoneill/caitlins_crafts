@@ -1,3 +1,5 @@
+# [Caitlin's Crafts](testing/caitlins_crafts_responsiveness.jpg)
+
 # Testing for Caitlin's Crafts
 
 ## User Stories testing:

@@ -1,4 +1,5 @@
-# [Caitlin's Crafts]()
+# [Caitlin's Crafts](testing/caitlins_crafts_responsiveness.jpg)
+
 ## Wireframes for Our Family Recipes
 
 For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
