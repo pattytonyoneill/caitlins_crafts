@@ -1,4 +1,5 @@
-# [Caitlin's Crafts](testing/caitlins_crafts_responsiveness.jpg)
+# Caitlin's Crafts
+- ![image](testing/caitlins_crafts_responsiveness.jpg)
 
 ## Wireframes for Our Family Recipes
 
