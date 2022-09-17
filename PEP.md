@@ -22,14 +22,24 @@
      - ![image](testing/caitlins_crafts_wsgi.py.jpg)
 
 ## checkout Pep 8
+-  Pep8 for admin.py
+     - ![image](testing/checkout_admin.py.jpg)
+-  Pep8 for apps.py
+     - ![image](testing/checkout_apps.py.jpg)
+-  Pep8 for forms.py
+     - ![image](testing/checkout_forms.py.jpg)
 -  Pep8 for models.py
-     - ![image](testing/models.py.jpg)
--  Pep8 for models.py
-     - ![image](testing/models.py.jpg)
--  Pep8 for models.py
-     - ![image](testing/models.py.jpg)
--  Pep8 for models.py
-     - ![image](testing/models.py.jpg)
+     - ![image](testing/checkout_models.py.jpg)
+-  Pep8 for signals.py
+     - ![image](testing/checkout_signals.py.jpg)
+-  Pep8 for urls.py
+     - ![image](testing/checkout_urls.py.jpg)
+-  Pep8 for urls.py
+     - ![image](testing/checkout_views.py.jpg)
+-  Pep8 for urls.py
+     - ![image](testing/checkout_webhook_handler.py.jpg)
+-  Pep8 for urls.py
+     - ![image](testing/checkout_webhooks.py.jpg)    
 
 ## contact Pep 8
 -  Pep8 for models.py
