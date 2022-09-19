@@ -138,8 +138,12 @@
 {% endblock %}
 
 <footer>
-    <a href="{% url 'newsletter' %}">Sign Up to Newsletter</a>
-    <a href="{% url 'contact' %}">Contact Caitlin</a>
+    <div>
+        <ul class="links">
+            <li><a href="{% url 'newsletter' %}">Sign Up to Newsletter</a></li>
+            <li><a href="{% url 'contact' %}">Contact Caitlin</a></li>
+        </ul>
+    </div>
 </footer>
 
 {% block postloadjs %}
