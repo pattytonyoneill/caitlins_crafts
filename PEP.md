@@ -109,9 +109,9 @@
 -  Pep8 for views.py
      - ![image](testing/profiles_views.py.jpg)
 
-## custom_storage.py Pep 8
--  Pep8 for custom_storage.py
-     - ![image](testing/custom_storage.py.jpg)
+## custom_storages.py Pep 8
+-  Pep8 for custom_storages.py
+     - ![image](testing/custom_storages.py.jpg)
 
 ## manage.py Pep 8
 -  Pep8 for manage.py
