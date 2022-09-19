@@ -36,12 +36,14 @@
      - ![image](testing/checkout_signals.py.jpg)
 -  Pep8 for urls.py
      - ![image](testing/checkout_urls.py.jpg)
--  Pep8 for urls.py
+-  Pep8 for models.py
+     - ![image](testing/checkout_models.py.jpg)
+-  Pep8 for views.py
      - ![image](testing/checkout_views.py.jpg)
--  Pep8 for urls.py
+-  Pep8 for webhookhandler.py
      - ![image](testing/checkout_webhook_handler.py.jpg)
--  Pep8 for urls.py
-     - ![image](testing/checkout_webhooks.py.jpg)    
+-  Pep8 for webhooks.py
+     - ![image](testing/checkout_webhooks.py.jpg)       
 
 ## contact Pep 8
 -  Pep8 for models.py
