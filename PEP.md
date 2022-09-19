@@ -30,8 +30,6 @@
      - ![image](testing/checkout_apps.py.jpg)
 -  Pep8 for forms.py
      - ![image](testing/checkout_forms.py.jpg)
--  Pep8 for models.py
-     - ![image](testing/checkout_models.py.jpg)
 -  Pep8 for signals.py
      - ![image](testing/checkout_signals.py.jpg)
 -  Pep8 for urls.py
