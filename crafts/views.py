@@ -44,10 +44,12 @@ def all_crafts(request):
             query = request.GET['q']
 
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request, "You didn't enter any search criteria!")
                 return redirect(reverse('crafts'))
-     
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             crafts = crafts.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -82,14 +84,16 @@ def add_craft(request):
         return redirect(reverse('home'))
     if request.method == 'POST':
         form = CraftForm(request.POST, request.FILES)
-        
+
         if form.is_valid():
             craft = form.save()
             messages.success(request, 'Successfully added craft!')
             return redirect(reverse('craft_detail', args=[craft.id]))
 
         else:
-            messages.error(request, 'Failed to add craft. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add craft. Please ensure the form is valid.')
 
     else:
         form = CraftForm()
@@ -116,7 +120,9 @@ def edit_craft(request, craft_id):
             messages.success(request, 'Successfully updated craft!')
             return redirect(reverse('craft_detail', args=[craft.id]))
         else:
-            messages.error(request, 'Failed to update craft. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update craft. Please ensure the form is valid.')
     else:
         form = CraftForm(instance=craft)
         messages.info(request, f'You are editing {craft.name}')
