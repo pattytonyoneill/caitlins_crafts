@@ -1,7 +1,5 @@
-# [Caitlin's Crafts]()
-
-
-
+## Business Model
+paragragh to explain purpose of website
 ## Marketing Research
 
 - 1. _Who are your users?_
@@ -9,7 +7,7 @@
 - 2. _Which online platforms would you find lots of your users?_
      Pinterest, Facebook, Instagram, Twitter
 - 3. _Would you user use social media?_
-     Possibly depending on their age they may use Facebook at least. Younger people may not use Facebook but other platforms may be used to suplement for them.
+     Possibly depending on their age they may use Facebook at least. Younger people may not use Facebook but other platforms may be used to supplement for them.
 - 4. _What do your users need?_
     - hand made gifts that are made well.
      _Could you meet the need with useful content?_

@@ -1,6 +1,3 @@
-# Caitlin's Crafts
-- ![image](testing/caitlins_crafts_responsiveness.jpg)
-
 # Testing for Caitlin's Crafts
 
 ## Browser Compatability

@@ -1,6 +1,3 @@
-# [Caitlin's Crafts]()
-- ![image]()
-
 ## Data Schema
 - ![image](testing/schema.png)
 

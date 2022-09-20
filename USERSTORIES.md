@@ -1,6 +1,3 @@
-# Caitlin's Crafts
-- ![image](testing/caitlins_crafts_responsiveness.jpg)
-
 ## User Stories testing:
 - 1. As a shopper I can select something to purchase.
 - ![image](testing/userstory1.jpg)

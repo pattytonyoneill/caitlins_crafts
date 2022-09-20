@@ -1,6 +1,3 @@
-# Caitlin's Crafts
-- ![image](testing/caitlins_crafts_responsiveness.jpg)
-
 ### Pep8 Testing
 
 ## bag Pep 8
