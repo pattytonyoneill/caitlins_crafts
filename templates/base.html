@@ -137,13 +137,14 @@
 {% block content %}
 {% endblock %}
 
-<footer>
-    <div>
-        <ul class="links">
-            <li><a href="{% url 'newsletter' %}">Sign Up to Newsletter</a></li>
-            <li><a href="{% url 'contact' %}">Contact Caitlin</a></li>
-        </ul>
-    </div>
+<footer class="container-fluid bg-white">
+    <nav class="nav nav-fill d-flex justify-content-around text-primary">
+        <a href="{% url 'newsletter' %}" class="nav-link text-primary">Sign Up to Newsletter</a>
+        <a href="{% url 'contact' %}" class="nav-link text-primary">Contact Caitlin</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="nofollow noreferrer" class="nav-link text-primary"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="nofollow noreferrer" class="nav-link text-primary"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://twitter.com/" target="_blank" rel="nofollow noreferrer" class="nav-link text-primary"><i class="fab fa-twitter-square"></i></a>
+    </nav>
 </footer>
 
 {% block postloadjs %}
