@@ -135,3 +135,7 @@ To view all SEO and Marketing Research, got to [SEO.md](SEO.md)
 To view all wireframes, go to [WIREFRAMES.md](WIREFRAMES.md)
 
 #### Facebook Page Mockup
+To view Facebook Mockup, go to [FACEBOOK.md](FACEBOOK.md)
+
+#### Welcome Page Variety of Welcome messages
+To view Facebook Mocup, go to [WELCOME.md](WELCOME.md)

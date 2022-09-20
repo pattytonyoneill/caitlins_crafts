@@ -1,7 +1,4 @@
-# Caitlin's Crafts
-- ![image](testing/caitlins_crafts_responsiveness.jpg)
-
-## Wireframes for Our Family Recipes
+## Wireframes for Caitlin's Crafts
 
 For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 - Code Institute have provided all students with free access until the end of 2022.
@@ -11,7 +8,17 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 
 - My home page wireframe for this project can be found [here](wireframes/homepage.pdf).
 
+- My bag wireframe for this project can be found [here](wireframes/bag.pdf).
 
+- My checkout page wireframe for this project can be found [here](wireframes/homepage.pdf).
+
+- My contact page wireframe for this project can be found [here](wireframes/homepage.pdf).
+
+- My crafts page wireframe for this project can be found [here](wireframes/homepage.pdf).
+
+- My newsletter page wireframe for this project can be found [here](wireframes/homepage.pdf).
+
+- My profiles page wireframe for this project can be found [here](wireframes/homepage.pdf).
 
 
 
