@@ -41,10 +41,5 @@ To view all bugs, go to [BUGS.md](BUGS.md)
 
 ### User Stories testing:
 To view all userstories, go to [USERSTORIES.md](USERSTORIES.md)
- 
-
-
-
-
 
 Return back to [README.md](README.md)

@@ -69,6 +69,4 @@ paragragh to explain purpose of website
 - 21. Hand made dish cloths for sale
 
 
-
-
 Return back to [README.md](README.md)
