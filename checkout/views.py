@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -69,7 +70,7 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for size, quantity in item_data['items_by_size'].items():  # noqa
                             order_line_item = OrderLineItem(
                                 order=order,
                                 craft=craft,
@@ -80,7 +81,8 @@ def checkout(request):
                 except Crafts.DoesNotExist:
                     messages.error(
                         request, (
-                            "One of the crafts in your bag wasn't found in our database. "
+                            "One of the crafts in your bag wasn't "
+                            "found in our database. "
                             "Please call us for assistance!")
                     )
                     order.delete()
