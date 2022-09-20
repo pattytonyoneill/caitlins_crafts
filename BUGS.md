@@ -1,10 +1,6 @@
-# Caitlin's Crafts
-- ![image](testing/caitlins_crafts_responsiveness.jpg)0
+# Remaining Bugs
+- No remaining bugs that I am aware of.
 
-## R0emaining Bugs
-- Gitpod is working properly when sending the email and listing totals but for some reason on the deployed site it is sending those as 0.
-     -![image](testing/deployed_site_error.jpg)
-     -![image](testing/gitpod_site_no_error.jpg)this picture is after doing on heroku site and shows the error
 
 ## Bugs
 - Needed to add I solve it by removing s from function in crafts/views.py. My function was not called craft_detail instead it was crafts_detail.
@@ -24,7 +20,7 @@
 - webhooks had a 403 error under heroku because I forgot to add checkout/wh/
      -![image](testing/403errror.jpg)
 - webhooks had a 404 error under gitpod because I needed to make it public
-     -![image](testing/404errror.jpg)
+     -![image](testing/404error.jpg)
 - ModuleNotFoundError: No module named'crafts.widgets'. I just had to stop and then restart my server.
      -![image](testing/crafts_widgets.jpg)
 - Heroku 500error in the end redid creating the app on google
@@ -32,7 +28,7 @@
      -![image](testing/heroku2.jpg)
      -![image](testing/heroku3.jpg)
      -![image](testing/heroku4.jpg)
-- Gitpod is working properly when sending the email and listing totals but for some reason on the deployed site it is sending those as 0.
+- Gitpod is working properly when sending the email and listing totals but for some reason on the deployed site it is sending those as 0. Fixed under signals had not changed line of code to be what it should have been.
      -![image](testing/deployed_site_error.jpg)
      -![image](testing/gitpod_site_no_error.jpg)this picture is after doing on heroku site and shows the error
 
