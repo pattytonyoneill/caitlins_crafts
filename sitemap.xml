@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/bag/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?sort=category&amp;direction=asc</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=blankets</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=accesories</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=blankets,accesories</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=clothes</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=hats</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=scarfs</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=clothes,kids,adults,hats,scarfs</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=deals</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=clearance</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/?category=deals,clearance</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/newsletter/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/contact/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/16/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/17/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/18/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/19/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/20/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/22/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/14/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/15/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/21/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/3/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/1/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/2/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/7/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/5/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/6/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/13/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/9/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/10/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/11/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/12/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/23/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/25/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/24/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/4/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caitlins-crafts.herokuapp.com/crafts/8/</loc>
+  <lastmod>2022-09-20T07:16:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
