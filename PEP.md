@@ -67,7 +67,7 @@
      - ![image](testing/crafts_urls.py.jpg)
 -  Pep8 for views.py
      - ![image](testing/crafts_views.py.jpg)
-  Pep8 for admin.py
+  Pep8 for widgets.py
      - ![image](testing/crafts_widgets.py.jpg)
 
 ## home Pep 8
