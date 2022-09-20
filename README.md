@@ -138,4 +138,7 @@ To view all wireframes, go to [WIREFRAMES.md](WIREFRAMES.md)
 To view Facebook Mockup, go to [FACEBOOK.md](FACEBOOK.md)
 
 #### Welcome Page Variety of Welcome messages
-To view Facebook Mocup, go to [WELCOME.md](WELCOME.md)
+To view Welcome Messages, go to [WELCOME.md](WELCOME.md)
+
+#### 404 Page
+To view 404 Page, go to [ERRORS.md](ERRORS.md)
