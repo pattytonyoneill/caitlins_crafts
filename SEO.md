@@ -68,5 +68,8 @@ paragragh to explain purpose of website
 - 20. embroidered gifts
 - 21. Hand made dish cloths for sale
 
+# Facebook Mockup
+- ![image](testing/facebook_screenshot.jpg)
+
 
 Return back to [README.md](README.md)

@@ -5,6 +5,34 @@
 - Caitlin's Crafts is a website for users to find and purchase quality hand made items for themselves or for gifts.
 - Users will be able to register for a newsletter on crafts available and any specials that are curently available.
 
+## UX
+
+For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
+- Code Institute have provided all students with free access until the end of 2022.
+- used due to the fact I can quickly and efficiently produce a wireframe.
+
+### Wireframes
+
+- My home page wireframe for this project can be found [here](wireframes/homepage.pdf).
+
+- My bag wireframe for this project can be found [here](wireframes/bag.pdf).
+
+- My checkout page wireframe for this project can be found [here](wireframes/checkout.pdf).
+
+- My contact page wireframe for this project can be found [here](wireframes/contact.pdf).
+
+- My crafts page wireframe for this project can be found [here](wireframes/crafts.pdf).
+
+- My newsletter page wireframe for this project can be found [here](wireframes/newsletter.pdf).
+
+- My profiles page wireframe for this project can be found [here](wireframes/profiles.pdf).
+
+- My signin page wireframe for this project can be found [here](wireframes/signin.pdf).
+
+- My signout page wireframe for this project can be found [here](wireframes/signout.pdf).
+
+- My signup page wireframe for this project can be found [here](wireframes/signup.pdf).
+
 ## Existing Features
 - Interactive Elements:
   - Home page
@@ -52,7 +80,7 @@
 
 ## Deployment
 
-The live deployed application can be found at []().
+The live deployed application can be found at [Caitlin's Crafts :arrow_right:](https://caitlins-crafts.herokuapp.com/+).
 
 ### Heroku Deployment
 
@@ -63,7 +91,6 @@ Deployment steps are as follows, after account setup:
 - Select *New* in the top-right corner of your Heroku Dashboard, and select *Create new app* from the dropdown menu.
 - Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select *Create App*.
 - From the new app *Settings*, click *Reveal Config Vars*, and set the following key/value pairs:
-  - `CLOUDINARY_URL` (insert your own Cloudinary API key here)
   - `DATABASE_URL` (this comes from the **Resources** tab, you can get your own Postgres Database using the Free Hobby Tier)
   - `SECRET_KEY` (this can be any random secret key)
 
@@ -130,12 +157,6 @@ To view all testing, go to [TESTING.md](TESTING.md)
 
 #### SEO and Marketing Research
 To view all SEO and Marketing Research, got to [SEO.md](SEO.md)
-
-#### Wireframes
-To view all wireframes, go to [WIREFRAMES.md](WIREFRAMES.md)
-
-#### Facebook Page Mockup
-To view Facebook Mockup, go to [FACEBOOK.md](FACEBOOK.md)
 
 #### Welcome Page Variety of Welcome messages
 To view Welcome Messages, go to [WELCOME.md](WELCOME.md)
