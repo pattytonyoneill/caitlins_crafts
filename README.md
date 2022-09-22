@@ -129,52 +129,52 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Creating AWS Bucket & Static/Media files
 
-    - Go to AWS in the browser then log in or make an account.
+- Go to AWS in the browser then log in or make an account.
 
-    - Choose S3 in services.
+- Choose S3 in services.
 
-    - Make a new S3 bucket for the site. Next create a static directory and media directory within the bucket.
+- Make a new S3 bucket for the site. Next create a static directory and media directory within the bucket.
 
-    - After configuring the S3 bucket, copy the details into the settings.py file. - You will need the following: Storage Bucket Name, Storage Bucket Region Name, Access Key ID & Secret Access Key.
+- After configuring the S3 bucket, copy the details into the settings.py file. - You will need the following: Storage Bucket Name, Storage Bucket Region Name, Access Key ID & Secret Access Key.
 
-    - Configure the all of the above in your settings.py file.
+- Configure the all of the above in your settings.py file.
 
-    - In the env.py file created earlier, add the following:
+- In the env.py file created earlier, add the following:
 
-    os.environ["AWS_ACCESS_KEY_ID"] = "copy in your access key" os.environ["AWS_SECRET_ACCESS_KEY"] = "copy in your secret access key"
+os.environ["AWS_ACCESS_KEY_ID"] = "copy in your access key" os.environ["AWS_SECRET_ACCESS_KEY"] = "copy in your secret access key"
 
-    - In Heroku, add all of these keys to the config vars.
+- In Heroku, add all of these keys to the config vars.
 
-    - Next you add the key, DISABLE_COLLECTSTATIC with the value of 1 to the Heroku config vars, you must remembering to remove this before final deployment to heroku.
+- Next you add the key, DISABLE_COLLECTSTATIC with the value of 1 to the Heroku config vars, you must remembering to remove this before final deployment to heroku.
 
-    - Add STATIC files settings in settings.py: configure url, storage path, directory path, root path, media url and default file storage path variables.
+- Add STATIC files settings in settings.py: configure url, storage path, directory path, root path, media url and default file storage path variables.
 
-    - Link these files to the Templates directory inserting the snippet below (Place under the BASE_DIR line):
+- Link these files to the Templates directory inserting the snippet below (Place under the BASE_DIR line):
 
-            TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
-                Change the templates directory to TEMPLATES_DIR (Place this in the TEMPLATES array):
+    Change the templates directory to TEMPLATES_DIR (Place this in the TEMPLATES array):
 
-                TEMPLATES = [
-                {
-                  …,
-                  'DIRS': [TEMPLATES_DIR],
-                  …,
-                    ],
-                  },
-                },
-                ]
+    TEMPLATES = [
+    {
+      …,
+      'DIRS': [TEMPLATES_DIR],
+      …,
+        ],
+      },
+    },
+    ]
 
-    - Add Heroku Hostname to ALLOWED_HOSTS array: - ALLOWED_HOSTS = ['yourappname.herokuapp.com', 'localhost']
+- Add Heroku Hostname to ALLOWED_HOSTS array: - ALLOWED_HOSTS = ['yourappname.herokuapp.com', 'localhost']
 
 ## Setting Up Media & Static Files
 ### GitPod:
 
-    Create three new folders at top level directory: 'media', 'static' and 'templates'.
-    Create PROCFILE at top level directory: - Procfile In Procfile:
-    Add this code: - web: gunicorn PROJ_NAME.wsgi
-    Save all your files. In the terminal:
-    Add, Commit and Push: - git add . - git commit -m “Deployment Commit” - git push
+Create three new folders at top level directory: 'media', 'static' and 'templates'.
+Create PROCFILE at top level directory: - Procfile In Procfile:
+Add this code: - web: gunicorn PROJ_NAME.wsgi
+Save all your files. In the terminal:
+Add, Commit and Push: - git add . - git commit -m “Deployment Commit” - git push
 
 In Heroku, navigate to the deployment tab and deploy the branch manually - watch the build logs for any errors. Heroku will now build the app. Once the build is finished, the live site will be deployed with a Heroku link provided and a success message.
 
@@ -204,17 +204,8 @@ Caitlin's Crafts uses Stripe to handle all payments. A developer account was nee
 - _Family for help with help and feedback on website as a user_
 - _Caitlin my daughter for being the inspiration for this particular website_
 
-#### Data Schema
-To view all Data Schema, go to [DATASCHEMA.md](DATASCHEMA.md)
-
 #### Testing
 To view all testing, go to [TESTING.md](TESTING.md)
 
 #### SEO and Marketing Research
 To view all SEO and Marketing Research, got to [SEO.md](SEO.md)
-
-#### Welcome Page Variety of Welcome messages
-To view Welcome Messages, go to [WELCOME.md](WELCOME.md)
-
-#### 404 Page
-To view 404 Page, go to [ERRORS.md](ERRORS.md)
