@@ -23,7 +23,20 @@
 ## Validator Testing
 
 ### HTML Validation
-- ![image](testing/html_testing.jpg)
+- site testing
+     - ![image](testing/html_testing.jpg)
+- crafts  testing
+     - ![image](testing/crafts_html.jpg)
+- bag  testing
+     - ![image](testing/bag_html.jpg)
+- checkout  testing
+     - ![image](testing/checkout_html.jpg)
+- contact testing
+     - ![image](testing/contact_html.jpg)
+- newsletter
+     - ![image](testing/newsletter_html.jpg)
+
+
 
 ### CSS Validation
 - base.css
@@ -32,6 +45,9 @@
      - ![image](testing/checkout_css_validator.jpg)
 - profiles.css
      - ![image](testing/checkout_css_validator.jpg)
+
+### 404 Page for Caitlin's Crafts
+    - ![image](testing/404.jpg)
 
 ### Pep8 Testing
 To view all Pep8 testing, go to [PEP.md](PEP.md)
