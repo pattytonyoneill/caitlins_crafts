@@ -60,6 +60,7 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 ## Agile Methodology
 [Closed Issues](https://github.com/pattytonyoneill/caitlins_crafts/issues?q=is%3Aissue+is%3Aclosed)
 -![image](testing/closed.png)
+
 [Project Board](https://github.com/pattytonyoneill/caitlins_crafts/projects/1)
 -![image](testing/projectboard.png)
 
