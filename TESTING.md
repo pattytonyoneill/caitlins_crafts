@@ -2,52 +2,58 @@
 
 ## Browser Compatability
 - Firefox
-    - ![image](testing/profile.jpg)
+- ![image](testing/profile.jpg)
 
 - Microsoft Edge
-    - ![image](testing/microsoft_edge.jpg)
+- ![image](testing/microsoft_edge.jpg)
 
 - Google Chrome
-    - ![image](testing/google_chrome.jpg)
+- ![image](testing/google_chrome.jpg)
 
 ## Responsiveness
 - Desktop
-     - ![image](testing/profile.jpg)
+- ![image](testing/profile.jpg)
 
 - Tablet
-     - ![image](testing/tablet.jpg)
+- ![image](testing/tablet.jpg)
 
 - Cell Phone
-     - ![image](testing/google_chrome.jpg)
+- ![image](testing/google_chrome.jpg)
 
 ## Validator Testing
 
 ### HTML Validation
 - site testing
-     - ![image](testing/html_testing.jpg)
+- ![image](testing/html_testing.jpg)
 - crafts  testing
-     - ![image](testing/crafts_html.jpg)
+- ![image](testing/crafts_html.jpg)
 - bag  testing
-     - ![image](testing/bag_html.jpg)
+- ![image](testing/bag_html.jpg)
 - checkout  testing
-     - ![image](testing/checkout_html.jpg)
+- ![image](testing/checkout_html.jpg)
 - contact testing
-     - ![image](testing/contact_html.jpg)
+- ![image](testing/contact_html.jpg)
 - newsletter
-     - ![image](testing/newsletter_html.jpg)
+- ![image](testing/newsletter_html.jpg)
 
 
 
 ### CSS Validation
 - base.css
-     - ![image](testing/base_css_validator.jpg)
+- ![image](testing/base_css_validator.jpg)
 - checkout.css
-     - ![image](testing/checkout_css_validator.jpg)
+- ![image](testing/checkout_css_validator.jpg)
 - profiles.css
-     - ![image](testing/checkout_css_validator.jpg)
+- ![image](testing/checkout_css_validator.jpg)
+
+### Javascript Validation
+- Profiles Static App
+- ![image](testing/)
+- Checkout Static App
+- ![image](testing/)
 
 ### 404 Page for Caitlin's Crafts
-    - ![image](testing/404.jpg)
+- ![image](testing/404.jpg)
 
 ### Pep8 Testing
 To view all Pep8 testing, go to [PEP.md](PEP.md)
