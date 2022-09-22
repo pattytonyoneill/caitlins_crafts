@@ -14,23 +14,14 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 ### Wireframes
 
 - My home page wireframe for this project can be found [here](wireframes/homepage.pdf).
-
 - My bag wireframe for this project can be found [here](wireframes/bag.pdf).
-
 - My checkout page wireframe for this project can be found [here](wireframes/checkout.pdf).
-
 - My contact page wireframe for this project can be found [here](wireframes/contact.pdf).
-
 - My crafts page wireframe for this project can be found [here](wireframes/crafts.pdf).
-
 - My newsletter page wireframe for this project can be found [here](wireframes/newsletter.pdf).
-
 - My profiles page wireframe for this project can be found [here](wireframes/profiles.pdf).
-
 - My signin page wireframe for this project can be found [here](wireframes/signin.pdf).
-
 - My signout page wireframe for this project can be found [here](wireframes/signout.pdf).
-
 - My signup page wireframe for this project can be found [here](wireframes/signup.pdf).
 
 ## Existing Features
@@ -50,6 +41,13 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
     - ![image](testing/kids.jpg)
   - Choice of Crafts from Special Offers of Deals, Clearance or All Special Offers
     - ![image](testing/offers.jpg)
+  - Random Welcome message that changes on the home page
+    - ![image](testing/welcome3.jpg)
+    - ![image](testing/welcome4.jpg)
+    - ![image](testing/welcome5.jpg)
+  - 404 Page for Caitlin's Crafts
+    - ![image](testing/404.jpg)
+
 
 ## Languages Used:
 
@@ -62,6 +60,9 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 ## Relational Database used:
 
 - Postgres
+- Dataschema
+  - ![image](testing/schema.png)
+
 
 ## Frameworks, Libraries & Programs Used:
 
@@ -71,7 +72,6 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 - [Balsamiq Wireframes](https://balsamiq.com/):  used to draw wireframes of pages of project
 - [Am I Responsive?](http://ami.responsivedesign.is/) used to give a visual of what the project looks like on various devices
 - [Heroku](https://heroku.com): used to deploy the Our Family Recipes app
-- [Cloudinary](https://cloudinary.com/): used to import my Cloudinary field for the featured image
 - [Diffchecker](https://www.diffchecker.com/): used to compare code when I had an error
 - [Stripe](https://stripe.com/): used to add the ability to charge consumer for crafts purchased
 - [Pexels](https://pexels.com/): used to obtain photo for home page
@@ -126,6 +126,61 @@ You can install this project's requirements (where applicable) using: `pip3 inst
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/pattytonyoneill/caitlins_crafts)
+
+## Creating AWS Bucket & Static/Media files
+
+    - Go to AWS in the browser then log in or make an account.
+
+    - Choose S3 in services.
+
+    - Make a new S3 bucket for the site. Next create a static directory and media directory within the bucket.
+
+    - After configuring the S3 bucket, copy the details into the settings.py file. - You will need the following: Storage Bucket Name, Storage Bucket Region Name, Access Key ID & Secret Access Key.
+
+    - Configure the all of the above in your settings.py file.
+
+    - In the env.py file created earlier, add the following:
+
+    os.environ["AWS_ACCESS_KEY_ID"] = "copy in your access key" os.environ["AWS_SECRET_ACCESS_KEY"] = "copy in your secret access key"
+
+    - In Heroku, add all of these keys to the config vars.
+
+    - Next you add the key, DISABLE_COLLECTSTATIC with the value of 1 to the Heroku config vars, you must remembering to remove this before final deployment to heroku.
+
+    - Add STATIC files settings in settings.py: configure url, storage path, directory path, root path, media url and default file storage path variables.
+
+    - Link these files to the Templates directory inserting the snippet below (Place under the BASE_DIR line):
+
+            TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+
+                Change the templates directory to TEMPLATES_DIR (Place this in the TEMPLATES array):
+
+                TEMPLATES = [
+                {
+                  …,
+                  'DIRS': [TEMPLATES_DIR],
+                  …,
+                    ],
+                  },
+                },
+                ]
+
+    - Add Heroku Hostname to ALLOWED_HOSTS array: - ALLOWED_HOSTS = ['yourappname.herokuapp.com', 'localhost']
+
+## Setting Up Media & Static Files
+### GitPod:
+
+    Create three new folders at top level directory: 'media', 'static' and 'templates'.
+    Create PROCFILE at top level directory: - Procfile In Procfile:
+    Add this code: - web: gunicorn PROJ_NAME.wsgi
+    Save all your files. In the terminal:
+    Add, Commit and Push: - git add . - git commit -m “Deployment Commit” - git push
+
+In Heroku, navigate to the deployment tab and deploy the branch manually - watch the build logs for any errors. Heroku will now build the app. Once the build is finished, the live site will be deployed with a Heroku link provided and a success message.
+
+## Stripe Setup
+
+Caitlin's Crafts uses Stripe to handle all payments. A developer account was needed to gain access to the different API keys that will then be inputted into the env.py file and Heroku config vars. Keys included are STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY & STRIPE_WH_SECRET. These keys are then configured according to how Django requires as shown in their Stripe documentation.
 
 ## Future Additions to page
 - Ratings for crafts that are on this site
