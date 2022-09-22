@@ -26,27 +26,27 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 
 ## Existing Features
 - Interactive Elements:
-  - Home page
-    - ![image](testing/home_page.jpg)
-  - Login/Logout
-    - ![image](testing/log_in.jpg)
-    - ![image](testing/log_out.jpg)
-  - Register
-    - ![image](testing/register.jpg)
-  - Choice of Crafts by Price, Category or All Crafts
-    - ![image](testing/all_crafts.jpg)
-  - Choice of Crafts from baby of blankets or accessories or All Baby
-    - ![image](testing/baby.jpg)
-  - Choice of Crafts from Kids/Adults of clothes, hats, scarfs or All Kids/Adults
-    - ![image](testing/kids.jpg)
-  - Choice of Crafts from Special Offers of Deals, Clearance or All Special Offers
-    - ![image](testing/offers.jpg)
-  - Random Welcome message that changes on the home page
-    - ![image](testing/welcome3.jpg)
-    - ![image](testing/welcome4.jpg)
-    - ![image](testing/welcome5.jpg)
-  - 404 Page for Caitlin's Crafts
-    - ![image](testing/404.jpg)
+- Home page
+- ![image](testing/home_page.jpg)
+- Login/Logout
+- ![image](testing/log_in.jpg)
+- ![image](testing/log_out.jpg)
+- Register
+- ![image](testing/register.jpg)
+- Choice of Crafts by Price, Category or All Crafts
+- ![image](testing/all_crafts.jpg)
+- Choice of Crafts from baby of blankets or accessories or All Baby
+- ![image](testing/baby.jpg)
+- Choice of Crafts from Kids/Adults of clothes, hats, scarfs or All Kids/Adults
+- ![image](testing/kids.jpg)
+- Choice of Crafts from Special Offers of Deals, Clearance or All Special Offers
+- ![image](testing/offers.jpg)
+- Random Welcome message that changes on the home page
+- ![image](testing/welcome3.jpg)
+- ![image](testing/welcome4.jpg)
+- ![image](testing/welcome5.jpg)
+- 404 Page for Caitlin's Crafts
+- ![image](testing/404.jpg)
 
 
 ## Languages Used:
@@ -57,11 +57,17 @@ For my wireframes, I have used [Balsamiq Wireframes](https://balsamiq.com/):
 - CSS
 - JavaScript
 
+## Agile Methodology
+[Closed Issues](https://github.com/pattytonyoneill/caitlins_crafts/issues?q=is%3Aissue+is%3Aclosed)
+-![image](testing/closed.png)
+[Project Board](https://github.com/pattytonyoneill/caitlins_crafts/projects/1)
+-![image](testing/projectboard.png)
+
 ## Relational Database used:
 
 - Postgres
 - Dataschema
-  - ![image](testing/schema.png)
+- ![image](testing/schema.png)
 
 
 ## Frameworks, Libraries & Programs Used:
@@ -181,6 +187,15 @@ In Heroku, navigate to the deployment tab and deploy the branch manually - watch
 ## Stripe Setup
 
 Caitlin's Crafts uses Stripe to handle all payments. A developer account was needed to gain access to the different API keys that will then be inputted into the env.py file and Heroku config vars. Keys included are STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY & STRIPE_WH_SECRET. These keys are then configured according to how Django requires as shown in their Stripe documentation.
+
+## Creating Webhooks 
+1. First Log into your Stripe dashboard.
+2. Use menu on the left and click on API.
+3. Next you click on the Webhooks tab.
+4. Then you click on Add endpoint.
+5. Input the webhook endpoint
+6. In “Events to send” setting, select “receive all events” 
+7. The final step is click Add endpoint.
 
 ## Future Additions to page
 - Ratings for crafts that are on this site
