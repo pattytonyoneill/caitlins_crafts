@@ -1,5 +1,12 @@
 ## Business Model
-paragragh to explain purpose of website
+This site sells crafts to individual customers therefore follows a Business to Customer model. It is one of the simplest B2C forms since it focuses on the individual transaction and doesn't require anything such as monthly or annual subscriptions.
+
+It is still in is early developmental stages. The site already it has a newsletter and links for social media marketing available.
+
+Social media can potentially build a community of users around the business as well as boost site visitor numbers, especially when using larger platforms such a Facebook.
+
+The business can use a newsletter list to send regular messages to site users. One such example is, what items are on special offer, new items in stock, updates to business hours and notifications of special events etc.
+
 ## Marketing Research
 
 - 1. _Who are your users?_
